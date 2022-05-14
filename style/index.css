@@ -157,7 +157,7 @@ html, body {
 .joinRecruitersPic img {
     display: inline-block;
     width: 100%;
-    padding: 0.8em 1em;
+    padding: 0.8em 1.5em;
 }
 
 /* section7 quotation image */
@@ -183,7 +183,7 @@ html, body {
     padding-top: 1.5rem;
 }
 
-.mediaDiv h3 {
+.titleCenterH3 {
     font-size: 2rem;
     padding-bottom: 1rem;
 }
@@ -194,4 +194,10 @@ html, body {
 
 .mediaDivRow2 img {
     width: 20%;
+}
+
+/* funding partners section */
+
+.partnersDivPics img {
+    width:10em !important;
 }
