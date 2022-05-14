@@ -1,3 +1,41 @@
 * {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.3);
+    background-image: url("../assets/presentation.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 10%;
+    color:white;
+}
+
+.headerMainDiv {
+    margin:0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerMainDiv li {
+    display: inline-block;
+}
+
+.headerMainDiv nav {
+    text-align: right;
+}
+
+.headerMainDiv a {
+    display: inline-block;
+    padding: 0.5em;
+    color:white;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
