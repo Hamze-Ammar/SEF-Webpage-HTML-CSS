@@ -95,3 +95,27 @@ html, body {
     color: rgb(35, 189, 35);
     padding: 0.5em;
 }
+
+/* section3 get the skills */
+
+.getTheSkills {
+    margin: 5% 10%;
+    padding: 0.5em 1em;
+    display: flex;
+    justify-content:space-around;
+    gap: 0.8em;
+}
+
+.getTheSkills img {
+    width: 100%;
+    display: block;
+}
+
+.getTheSkills h2 {
+    margin: 0;
+
+}
+.getTheSkills .getTheSkillsText {
+    font-size: 150% ;
+    display: block;
+}
