@@ -79,20 +79,29 @@ html, body {
 /* section2 */
 
 ._90recruitment {
+    max-width: 100%;
+    margin: 0, 1em;
     display: flex;
-    justify-content: center;
-    /* justify-content: space-around; */
+    /* justify-content: center; */
+    justify-content: space-around;
 }
 
 ._90recruitment .recruitmentChild {
+    max-width: 30%;
     text-align: center;
-    font-size: 1.7em;
+    font-size: 1em;
     padding: 0 1em;
+    justify-content: safe;
 }
 
 .recruitmentChild h1 {
+    font-size: 1.5em;
     color: rgb(35, 189, 35);
-    padding-top: 0.5em;
+    padding-top: 0.4rem;
+}
+
+.recruitmentChild p {
+    font-size: 0.5em;
 }
 
 /* section3 get the skills */
@@ -106,6 +115,7 @@ html, body {
 
 .getTheSkills img {
     width: 100%;
+    min-width: 70px;
     display: block;
 }
 
@@ -114,13 +124,13 @@ html, body {
     font-weight: normal;
 }
 .getTheSkills .getTheSkillsText {
-    font-size: 140% ;
+    font-size: .7em ;
     display: block;
     margin-bottom: 2em;
 }
 
 .getTheSkillsText {
-    margin-left: 5em;
+    margin-left: 2em;
 }
 
 /* section4 discover the program */
@@ -144,6 +154,11 @@ html, body {
 .discoverTheProgramImages {
     display: flex;
     justify-content: center;
+}
+
+.discoverTheProgramImages img {
+    max-width:100%;
+    max-height: 100%;
 }
 
 /* section6 join our recruiters */
