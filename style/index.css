@@ -71,14 +71,27 @@ html, body {
     padding-bottom: 0.5em;
 }
 
-.header button {
-    background-color: rgb(35, 189, 35);
-    padding: 0.7em;
-    /* font-size:large; */
-    font-weight: bold;
-    color: white;
+
+.headerApplyNowButton :hover {
+    background-color:rgba(0, 0, 0, .4) !important;
 }
 
-.learnMoreButton :hover {
-    background-color:rgba(0, 0, 0, 0.2);
+/* section2 */
+
+._90recruitment {
+    display: flex;
+    justify-content: center;
+    gap: 3em ;
+    /* justify-content: space-around; */
+}
+
+._90recruitment .recruitmentChild {
+    text-align: center;
+    font-size: 1.7em;
+    padding: 0 1em;
+}
+
+.recruitmentChild h1 {
+    color: rgb(35, 189, 35);
+    padding: 0.5em;
 }
