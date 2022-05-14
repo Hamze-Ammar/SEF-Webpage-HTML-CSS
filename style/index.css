@@ -29,6 +29,12 @@ html, body {
     padding: 0.5em 4em;
 }
 
+@media screen and (max-width:800px){
+    .headerMainDiv {
+        padding: 0.5em 2em;
+    }
+}
+
 .hiddenEqualSign {
     display:none;
 }
