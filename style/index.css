@@ -123,3 +123,26 @@ html, body {
 .getTheSkillsText {
     margin-left: 5em;
 }
+
+/* section4 discover the program */
+
+.discoverTheProgram {
+    background-color: rgb(35, 189, 35);
+    text-align: center;
+    font-size: 1.5em;
+    
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+
+.discoverTheProgramText {
+    color:white;
+    padding-top: 2em;
+    font-weight: normal;
+}
+
+.discoverTheProgramImages {
+    display: flex;
+    justify-content: center;
+}
