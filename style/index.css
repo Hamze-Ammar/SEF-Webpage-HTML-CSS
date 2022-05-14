@@ -145,3 +145,17 @@ html, body {
     display: flex;
     justify-content: center;
 }
+
+/* section6 join our recruiters */
+
+.joinRecruiters {
+    text-align: center;
+    font-size: 1.4em;
+}
+
+
+.joinRecruitersPic img {
+    display: inline-block;
+    width: 100%;
+    padding: 0.8em 1em;
+}
