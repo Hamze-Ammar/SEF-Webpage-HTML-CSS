@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+
 }
 
 html, body {
@@ -49,9 +49,9 @@ html, body {
     .headerMainDiv li {
         display: none;
     }
-    
+
 }
-    
+
 
 .headerHomeButton {
     border-bottom: 1px solid white;
@@ -135,13 +135,14 @@ html, body {
         justify-content: center;
         justify-items:center;
         text-align: center;
+        gap: 1em;
     }
     ._90recruitment .recruitmentChild {
-        
+
         margin: auto;
+        margin-bottom: 0;
+        padding-bottom: 0;
     }
-    
-    
 }
 
 
@@ -174,13 +175,33 @@ html, body {
     margin-left: 2em;
 }
 
+@media screen and (max-width: 750px){
+    .getTheSkills {
+        margin: 5% 10%;
+        padding: 0.5em 1em;
+        display: block;
+        justify-content:space-around;
+    }
+    .getTheSkills h2 {
+        font-size: x-large;
+        margin-top: 0.3em;
+        padding-top: 0.3em;
+    }
+    .getTheSkillsText p {
+        font-size: 1.2em;
+    }
+
+}
+
+
+
 /* section4 discover the program */
 
 .discoverTheProgram {
     background-color: rgb(35, 189, 35);
     text-align: center;
     font-size: 1.5em;
-    
+
     /* display: flex;
     flex-direction: column;
     justify-content: center; */
@@ -201,6 +222,20 @@ html, body {
     max-width:100%;
     max-height: 100%;
 }
+
+@media screen and (max-width: 750px){
+    .discoverTheProgramImages {
+        display:block;
+        justify-content: center;
+    }
+    .discoverTheProgramImages img {
+        width:auto;
+        height: auto;
+    }
+}
+
+
+
 
 /* section6 join our recruiters */
 
@@ -252,6 +287,32 @@ html, body {
     width: 20%;
 }
 
+@media screen and (max-width: 700px){
+    .mediaDiv {
+        display: inline-block;
+        margin: auto;
+    }
+    .mediaDivRow1 {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .mediaDivRow2 {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .mediaDivRow1 img {
+        margin: auto;
+        width:auto;
+    }
+    .mediaDivRow2 img {
+        margin: auto;
+        width:auto;
+    }
+
+}
+
 /* funding partners section */
 
 .partnersDivPics img {
@@ -276,7 +337,7 @@ html, body {
     background-color: lightgray;
     padding: 1.5em 0;
     text-align: center;
-    
+
 }
 
 .sbscribeH3 {
