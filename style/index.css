@@ -291,6 +291,8 @@ html, body {
     .mediaDiv {
         display: inline-block;
         margin: auto;
+        text-align: center;
+        width: 100%;
     }
     .mediaDivRow1 {
         display: flex;
@@ -312,6 +314,31 @@ html, body {
     }
 
 }
+
+@media screen and (max-width: 550px){
+    .mediaDivRow1 img {
+        margin: auto;
+        width:250px;
+    }
+    .mediaDivRow2 img {
+        margin: auto;
+        width:250px;
+    }
+
+}
+
+@media screen and (max-width: 280px){
+    .mediaDivRow1 img {
+        margin: auto;
+        width:150px;
+    }
+    .mediaDivRow2 img {
+        margin: auto;
+        width:150px;
+    }
+
+}
+
 
 /* funding partners section */
 
@@ -349,6 +376,18 @@ html, body {
 
 }
 
+
+@media screen and (max-width:400px) {
+    .sbscribeH3 {
+        margin-top: 0.7em;
+        font-size: 1em;
+        font-weight: normal;
+        text-align: center;
+        margin: 0 20%;
+    
+    }
+}
+
 /* footer section */
 
 .footer {
@@ -367,4 +406,14 @@ html, body {
 .footerListRight i {
     width: 2em;
     color: white;
+}
+
+@media screen and (max-width:700px) {
+    /* .footerMiddle {
+        font-size: smaller;
+    } */
+    .footer {
+        padding: 2.4em;
+        display: block;
+    }
 }
