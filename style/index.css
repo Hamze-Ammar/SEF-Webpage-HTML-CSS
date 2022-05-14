@@ -38,11 +38,17 @@ html, body {
     padding-bottom: 0.3em;
 }
 
+.headerApplyNowButton {
+    border-radius: 5%;
+    background-color: rgb(35, 189, 35) ;
+    padding: 0.5em;
+}
+
 .headerMainDiv nav {
     text-align: right;
 }
 
-.headerMainDiv a {
+.header a {
     display: inline-block;
     padding: 0.5em;
     color:white;
