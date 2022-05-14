@@ -81,7 +81,6 @@ html, body {
 ._90recruitment {
     display: flex;
     justify-content: center;
-    gap: 3em ;
     /* justify-content: space-around; */
 }
 
@@ -93,7 +92,7 @@ html, body {
 
 .recruitmentChild h1 {
     color: rgb(35, 189, 35);
-    padding: 0.5em;
+    padding-top: 0.5em;
 }
 
 /* section3 get the skills */
