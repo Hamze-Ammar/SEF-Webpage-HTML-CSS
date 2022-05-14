@@ -231,3 +231,23 @@ html, body {
     margin: 0 20%;
 
 }
+
+/* footer section */
+
+.footer {
+    background-color: black;
+    padding: 2.4em;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+
+.footerListRight li {
+    display: inline;
+}
+
+.footerListRight i {
+    width: 2em;
+    color: white;
+}
