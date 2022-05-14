@@ -103,7 +103,6 @@ html, body {
     padding: 0.5em 1em;
     display: flex;
     justify-content:space-around;
-    gap: 0.8em;
 }
 
 .getTheSkills img {
@@ -112,10 +111,15 @@ html, body {
 }
 
 .getTheSkills h2 {
-    margin: 0;
-
+    margin-top: 0;
+    font-weight: normal;
 }
 .getTheSkills .getTheSkillsText {
-    font-size: 150% ;
+    font-size: 140% ;
     display: block;
+    margin-bottom: 2em;
+}
+
+.getTheSkillsText {
+    margin-left: 5em;
 }
