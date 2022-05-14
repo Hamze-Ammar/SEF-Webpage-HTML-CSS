@@ -29,9 +29,29 @@ html, body {
     padding: 0.5em 4em;
 }
 
+.hiddenEqualSign {
+    display:none;
+}
+
+@media screen and (max-width:1000px){
+    .hiddenEqualSign {
+        display:contents;
+        display: inline-block;
+        text-align: end;
+    }
+}
+
 .headerMainDiv li {
     display: inline-block;
 }
+
+@media screen and (max-width: 1000px){
+    .headerMainDiv li {
+        display: none;
+    }
+    
+}
+    
 
 .headerHomeButton {
     border-bottom: 1px solid white;
@@ -80,29 +100,50 @@ html, body {
 
 ._90recruitment {
     max-width: 100%;
+    max-inline-size: 100%;
     margin: 0, 1em;
     display: flex;
     /* justify-content: center; */
-    justify-content: space-around;
+    justify-content: center;
+    justify-items:normal;
+    gap: 3rem;
 }
 
 ._90recruitment .recruitmentChild {
+    display: inline;
     max-width: 30%;
     text-align: center;
     font-size: 1em;
     padding: 0 1em;
-    justify-content: safe;
 }
 
 .recruitmentChild h1 {
-    font-size: 1.5em;
+    margin: auto, 3em;
+    font-size: 2.5em;
     color: rgb(35, 189, 35);
     padding-top: 0.4rem;
 }
 
 .recruitmentChild p {
-    font-size: 0.5em;
+    font-size: 1em;
 }
+
+@media screen and (max-width: 800px){
+    ._90recruitment {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items:center;
+        text-align: center;
+    }
+    ._90recruitment .recruitmentChild {
+        
+        margin: auto;
+    }
+    
+    
+}
+
 
 /* section3 get the skills */
 
