@@ -10,22 +10,32 @@ html, body {
 }
 
 .header {
-    background-color: rgba(0, 0, 0, 0.3);
+    min-height: 700px;
+    background-color: rgba(0, 0, 0, 0.4);
     background-image: url("../assets/presentation.jpg");
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 10%;
     color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .headerMainDiv {
     margin:0;
     display: flex;
     justify-content: space-between;
+    padding: 0.5em 4em;
 }
 
 .headerMainDiv li {
     display: inline-block;
+}
+
+.headerHomeButton {
+    border-bottom: 1px solid white;
+    padding-bottom: 0.3em;
 }
 
 .headerMainDiv nav {
@@ -38,4 +48,31 @@ html, body {
     color:white;
     text-decoration: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.headerTextDiv {
+    padding-left: 5%;
+    display: flex;
+    justify-items: start;
+    width: 40%;
+}
+
+.header p {
+    font-size: 1.3em;
+}
+
+.header h1 {
+    padding-bottom: 0.5em;
+}
+
+.header button {
+    background-color: rgb(35, 189, 35);
+    padding: 0.7em;
+    /* font-size:large; */
+    font-weight: bold;
+    color: white;
+}
+
+.learnMoreButton :hover {
+    background-color:rgba(0, 0, 0, 0.2);
 }
