@@ -171,3 +171,27 @@ html, body {
     width: 100%;
     padding: 0.8em 1em;
 }
+
+/* <!--in the media section--> */
+
+.mediaDiv {
+    background-color: lightgray;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2.5rem;
+    padding-top: 1.5rem;
+}
+
+.mediaDiv h3 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.mediaDivRow1 img {
+    width: 20%;
+}
+
+.mediaDivRow2 img {
+    width: 20%;
+}
